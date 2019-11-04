@@ -16,7 +16,7 @@ export const Card = props => {
                         data-id={item.teamName}
                         style={{
                             animationDelay: `${i * 40}ms`,
-                            // minHeight: "110px",
+                            minHeight: "110px",
                             borderBottom: "5px solid #2F82EC"
                         }}
                     >

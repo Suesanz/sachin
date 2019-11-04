@@ -27,13 +27,13 @@ export const Card = props => {
                             {item.teamName}
                         </p>
                         {item.matches === 1 ? (
-                            <span className=" matches">{item.matches}
+                            <span className=" matches"><strong>{item.matches}
                                 <br/>
-                              match</span>
+                              match</strong></span>
                         ) : (
-                            <span className=" matches">{item.matches}
+                            <span className=" matches"><strong>{item.matches}
                                 <br/>
-                                  matches</span>
+                                matches</strong></span>
                         )}
                     </li>
 
@@ -56,7 +56,7 @@ export const Card = props => {
                     {item.matches === 1 ? (
                         <span className=" matches">{item.matches} <br/> match</span>
                     ) : (
-                        <span className=" matches">{item.matches}  <br/>matches</span>
+                        <span className=" matches">{item.matches} <br/>matches</span>
                     )}
                 </li>
 

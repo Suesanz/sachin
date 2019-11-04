@@ -3,7 +3,7 @@ import React from "react";
 import {LineCharts} from "./LineCharts";
 import {PieCharts} from "./PieCharts";
 import {BarCharts} from "./BarCharts";
-import back from '../../assets/76997.jpg'
+
 
 export const Container = props => {
     return (

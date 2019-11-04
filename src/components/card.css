@@ -1,0 +1,91 @@
+.team-card {
+
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.team {
+
+    overflow-x: scroll
+}
+
+.card_sec {
+
+    padding-top: 1rem;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.line-chart {
+    width: 95%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /*background-color: #595a5b;*/
+    border-radius: 4px;
+    /*margin-top: 20px;*/
+    position: relative;
+    /*border-style: solid;*/
+    color: darkgray;
+}
+
+.pie-chart {
+    height: 398px;
+    width: 95%;
+    /*border-style: solid;*/
+    margin-left: 2rem;
+    color: darkgray;
+    padding-bottom: 1rem !important;
+}
+
+.header {
+    font-size: 3.5rem;
+    padding: 2rem;
+    margin-top: 2.5rem;
+}
+
+.bar-chart {
+    padding: 4rem;
+    color: darkgray;
+    /*background-color: darkgray;*/
+    /*border-style: solid;*/
+}
+
+.matches {
+    font-style: italic;
+    font-weight: 400;
+
+}
+
+.team-name {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.pie-info {
+    height: 60px;
+    width: 80px;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pie-color {
+    height: 15px;
+    width: 15px;
+}
+

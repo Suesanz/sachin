@@ -10,7 +10,7 @@ export const Container = props => {
         <div>
             <div className="">
                 <header className=" pt-4 header">
-                    Sachin <i> vs </i> {props.teams}
+                    <span style={{color:"#F05E23"}}> Sachin</span> <i> vs </i> <span style={{color:"#0088fe"}}>{props.teams}</span>
                 </header>
                 <div className="container-fluid chart">
                     <div className="row">

@@ -8,10 +8,9 @@ export const Card = props => {
         if (props.activeTeam === item.teamName) {
             return (
                 <div className="container-fluid   card_sec">
-
                     <li
                         className="team-card team-card-appear"
-                        value="nameeee"
+                        value="name"
                         key={i}
                         onClick={props.changeTeam}
                         data-id={item.teamName}

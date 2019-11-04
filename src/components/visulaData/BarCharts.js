@@ -16,7 +16,8 @@ export const BarCharts = props => {
                         left: "-27px",
                         fontSize: "25px",
                         marginBottom: "10px",
-                        color:"black"
+                        color:"#00c45f",
+                        fontWeight:"700"
                     }}
                 >
         Stadium Stats

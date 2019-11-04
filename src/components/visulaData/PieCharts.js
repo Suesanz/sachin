@@ -24,7 +24,8 @@ export const PieCharts = props => {
                       left: "30px",
                       fontSize: "25px",
                       marginBottom: "10px",
-                      color:"black"
+                      color:"#00c49f",
+                      fontWeight:"700"
                   }}
               >
         Match Stats

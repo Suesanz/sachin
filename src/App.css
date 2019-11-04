@@ -52,6 +52,7 @@ body {
     padding-right: 30px;
     padding-top: 10px;
     transition: all 300ms ease-in-out;
+    color: #1b2136!important;
 }
 
 .team-card:hover {

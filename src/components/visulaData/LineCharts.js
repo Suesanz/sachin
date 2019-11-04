@@ -16,7 +16,8 @@ export const LineCharts = props => {
                       left: "30px",
                       fontSize: "25px",
                       marginBottom: "10px",
-                      color:"black"
+                      color:"#ec4c81",
+                      fontWeight:"700"
                   }}
               >
         Runs against {props.team}
@@ -45,7 +46,7 @@ export const LineCharts = props => {
             <span
                 className=""
                 style={{
-                    color: "black",
+                    color: "#ec4c81",
                     position: "absolute",
                     bottom: "17px",
                     left: "47%",

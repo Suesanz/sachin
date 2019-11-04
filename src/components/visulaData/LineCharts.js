@@ -9,7 +9,7 @@ export const LineCharts = props => {
     return (
         <div>
               <span
-                  className="ssp-400"
+                  className=""
                   style={{
                       position: "absolute",
                       top: "15px",
@@ -43,12 +43,13 @@ export const LineCharts = props => {
                 />
             </LineChart>
             <span
-                className="ssp-400"
+                className=""
                 style={{
-                    color: "white",
+                    color: "black",
                     position: "absolute",
-                    bottom: "7px",
-                    left: "47%"
+                    bottom: "17px",
+                    left: "47%",
+                    fontSize:"20px"
                 }}
             >
         Matches

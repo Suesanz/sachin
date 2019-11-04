@@ -1,21 +1,22 @@
-import React, {Component, useState} from 'react';
+import React, {useState} from 'react';
 import {Card} from '../components/card'
 import {Container} from "./visulaData/chartContainer";
 import './card.css'
+
 export const Details = props => {
     const [currentTeam, setCurrentTeam] = useState("Australia")
     const setTeam = (data) => {
         setCurrentTeam(data.currentTarget.dataset.id)
     }
     return (
-        <div>
-        <div className="container-fluid team">
+        <div className="app">
+            <div className="container-fluid team">
 
-            <Card activeTeam={currentTeam}
-                  changeTeam={setTeam}/>
+                <Card activeTeam={currentTeam}
+                      changeTeam={setTeam}/>
 
-        </div>
+            </div>
             <Container teams={currentTeam}/>
-</div>
+        </div>
     );
 }

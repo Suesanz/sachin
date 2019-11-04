@@ -9,7 +9,7 @@ export const BarCharts = props => {
     return (
         <div>
                 <span
-                    className="ssp-400"
+                    className=""
                     style={{
                         position: "relative",
                         top: "-35px",
@@ -21,7 +21,7 @@ export const BarCharts = props => {
                 >
         Stadium Stats
       </span>
-            <BarChart width={730} height={250} data={result}>
+            <BarChart width={900} height={350} data={result}>
                 <CartesianGrid strokeDasharray="3 3"/>
                 <XAxis dataKey="ground"/>
                 <YAxis/>

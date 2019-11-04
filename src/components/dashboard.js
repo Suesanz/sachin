@@ -15,14 +15,14 @@ export default class Dashboard extends Component {
                     <div className="container sec_section">
                         <div className="row  card-img-overlay">
                             <div className="col">
-                                Sachin Tendulkar
+                                <strong style={{fontSize: "4rem"}}>Sachin Tendulkar</strong>
                                 <br/>
-                                “Sachin Tendulkar is a former Indian cricketer, widely regarded to be the greatest
-                                cricketer
-                                of all time. - Wikipedia ”
+                                <i className="mt-4 pt-4"> “Sachin Tendulkar is a former Indian cricketer, widely
+                                    regarded to be the greatest
+                                    cricketer
+                                    of all time. - Wikipedia ”</i>
                                 <br/>
-                                <Link className="btn btn-light" to="/details">Home</Link>
-                                {/*<button >KNOW MORE</button>*/}
+                                <Link className="btn btn-light" to="/details">Know More</Link>
                             </div>
 
 

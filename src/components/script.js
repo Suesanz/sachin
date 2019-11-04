@@ -32,7 +32,7 @@ const totalRun = team => {
 
     }
     return runs;
-    // data.filter(item => item.opposition === team)
+
 }
 
 const WLD = team => {
@@ -58,7 +58,7 @@ const WLD = team => {
     }
     return {won, lost, draw};
 };
-//Return Stadium stats per team from data (for bar chart)
+
 const stadium = team => {
     let stadiumList = new Set([]);
     let stadiumStats = [];
@@ -68,7 +68,6 @@ const stadium = team => {
         }
     }
 
-    //create an array of object for each unique stadium with default values(0)
     stadiumList.forEach(stadium => {
         return stadiumStats.push({
             ground: stadium,
@@ -77,7 +76,6 @@ const stadium = team => {
         });
     });
 
-    //update stadiumStats
     for (let i = 0; i < data.length; i++) {
         if (data[i].match_result === "won") {
             for (let j = 0; j < stadiumStats.length; j++) {

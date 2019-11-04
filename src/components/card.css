@@ -1,22 +1,15 @@
-.team-card {
-
-}
 
 .container-fluid {
     display: flex;
     flex-direction: row;
-
 }
 
 .team {
-
     overflow-x: scroll
 }
 
 .card_sec {
-
     padding-top: 1rem;
-
 }
 
 li {
@@ -31,11 +24,8 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    /*background-color: #595a5b;*/
     border-radius: 4px;
-    /*margin-top: 20px;*/
     position: relative;
-    /*border-style: solid;*/
     color: darkgray;
 }
 
@@ -57,8 +47,7 @@ li {
 .bar-chart {
     padding: 4rem;
     color: darkgray;
-    /*background-color: darkgray;*/
-    /*border-style: solid;*/
+
 }
 
 .matches {
@@ -89,3 +78,8 @@ li {
     width: 15px;
 }
 
+.app {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    padding-top: 20px;
+}

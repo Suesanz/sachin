@@ -8,7 +8,6 @@ import {BarCharts} from "./BarCharts";
 export const Container = props => {
     return (
         <div>
-            {/*<img className="back" src={back} alt="image" style={{position: "absolute"}}/>*/}
             <div className="">
                 <header className=" pt-4 header">
                     Sachin <i> vs </i> {props.teams}

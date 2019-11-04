@@ -2,7 +2,7 @@ import React from "react";
 import * as Recharts from "recharts";
 import {WLD} from "../../components/script";
 
-const {Area, PieChart,Pie, XAxis, YAxis, Cell, CartesianGrid, Legend,ComposedChart} = Recharts;
+const { PieChart,Pie, Cell} = Recharts;
 
 export const PieCharts = props => {
     let result = WLD(props.team);

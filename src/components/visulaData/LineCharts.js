@@ -2,7 +2,7 @@ import React from "react";
 import * as Recharts from "recharts";
 import {totalRun} from "../../components/script";
 
-const {LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid, Legend} = Recharts;
+const {LineChart, Line, XAxis, YAxis, Tooltip} = Recharts;
 
 export const LineCharts = props => {
     const data = totalRun(props.team);

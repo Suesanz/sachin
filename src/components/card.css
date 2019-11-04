@@ -32,7 +32,6 @@ li {
 .pie-chart {
     height: 398px;
     width: 95%;
-    /*border-style: solid;*/
     margin-left: 2rem;
     color: darkgray;
     padding-bottom: 1rem !important;
@@ -82,4 +81,5 @@ li {
     padding-left: 40px !important;
     padding-right: 40px !important;
     padding-top: 20px;
+    text-align: center;
 }

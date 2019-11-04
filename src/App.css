@@ -2,13 +2,13 @@ body {
     overflow-x: hidden;
     background-color: #f6fffa;
     font-family: "Times New Roman";
-    text-align: center;
+
 }
 
 .sachin {
     /*height: 80%;*/
     width: 100%;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .first_sec {
@@ -19,18 +19,20 @@ body {
 .sec_section {
     font-size: 3rem;
     position: absolute;
-    top: 10rem;
-    left: 14rem;
+    top: 9rem;
+    left: 4rem;
+
 
 }
 
 .btn {
     border-style: solid;
     text-align: center;
-    background: #f6fffa none;
+    background: #ef8128 none;
     font-size: 1.5rem;
     position: relative;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    color: white;
 
 }
 

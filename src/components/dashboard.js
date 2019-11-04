@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import dash from '../assets/sachin-tendulkar-god-of-cricket.jpg'
+import dash from '../assets/sachin-tendulkar-72a.jpg'
 import {Link} from 'react-router-dom'
 
 export default class Dashboard extends Component {
@@ -15,10 +15,11 @@ export default class Dashboard extends Component {
                     <div className="container sec_section">
                         <div className="row  card-img-overlay">
                             <div className="col">
-                                <strong style={{fontSize: "4rem"}}>Sachin Tendulkar</strong>
+                                <strong style={{fontSize: "5rem",color:"#F05E23"}}>Sachin Tendulkar</strong>
                                 <br/>
-                                <i className="mt-4 pt-4"> “Sachin Tendulkar is a former Indian cricketer, widely
-                                    regarded to be the greatest
+                                <p/>
+                                <i style={{color:"#ef8128"}} className="mt-4 pt-4">“Sachin Tendulkar is a former Indian  <br/> cricketer, widely
+                                    regarded to be the greatest <br/>
                                     cricketer
                                     of all time. - Wikipedia ”</i>
                                 <br/>

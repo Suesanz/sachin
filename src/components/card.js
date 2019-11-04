@@ -1,6 +1,4 @@
-import React, {Component} from 'react';
-import {LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend} from 'recharts';
-import data from '../assets/csvjson'
+import React from 'react';
 import {teams} from './script'
 import './card.css'
 
